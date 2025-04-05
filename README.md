@@ -19,7 +19,18 @@ $ npm install
 
 # start platform
 $ npm run dev
+```
 
+```console
+> my_opendax_trading_app@0.1.1 dev
+> next dev -p 3001
+
+ready - started server on 0.0.0.0:3001, url: http://localhost:3001
+info  - Loaded env from /home/borismkv/Documents/boris_work/pupilee/my_opendax_trading_app/.env
+...
+```
+
+```bash
 # install dependencies for mockserver
 $ npm i npm-run-all colors header-case-normalizer js-combinatorics --save-dev
 
@@ -27,6 +38,16 @@ $ npm i npm-run-all colors header-case-normalizer js-combinatorics --save-dev
 $ npm explore @openware/opendax-web-sdk -- npm run mockserver
 ```
 
-Visit http://localhost:3001/
+```console
+mockserver
+Mockserver serving mockserver on: http://0.0.0.0:8000
+Ranger: listening on ws://0.0.0.0:9003/ws
+gRPC mock server running on 0.0.0.0:50051
+...
+```
+
+### Visit http://localhost:3001/
 
 ![OpenDAX Next.js platform](screenshot.png)
+
+&copy; 2024 codeguru, All rights reserved.
